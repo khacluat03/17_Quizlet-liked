@@ -1,4 +1,7 @@
 # Ứng dụng tạo câu hỏi trắc nghiệm (Quizlet-liked)
+
+### [Repository này được tôi lấy từ nhóm trưởng Huỳnh Tấn Tỷ trong đồ án chung của tôi để re-up lên trang GitHub của tôi]
+
 Mô tả ứng dụng
 # Tên ứng dụng: Quizlet
 Quizlet là một ứng dụng học tập trực tuyến giúp người dùng tạo và tham gia các bài trắc nghiệm để kiểm tra kiến thức và kỹ năng của mình. Ứng dụng giải quyết vấn đề cải thiện hiệu quả học tập và đánh giá thông qua các bài kiểm tra ngắn gọn và trực quan.

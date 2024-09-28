@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thêm câu hỏi</title>
+    <link rel="stylesheet" href="{% static 'css/styles_add_csv.css' %}" />
+    <!-- <link rel="stylesheet" href="{% static 'css/styles_add_csv.css' %}"> -->
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Add Question</h1>
+      <form
+        method="post"
+        action="{% url 'import_questions_csv'  %}"
+        enctype="multipart/form-data"
+      >
+        {% csrf_token %}
+        <input type="file" name="question_file" />
+        <button type="submit">Add Question</button>
+      </form>
+    </div>
+  </body>
+</html>

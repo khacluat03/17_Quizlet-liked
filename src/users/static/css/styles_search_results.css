@@ -1,0 +1,108 @@
+body {
+    padding-top: 100px; /* Thêm phần đệm để tránh header */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000; /* Đảm bảo header luôn ở trên cùng */
+    padding: 10px 0;
+    box-shadow: 0 4px 2px -2px gray; /* Tùy chọn: thêm bóng đổ cho header */
+}
+
+header h2 a.logo {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.search-bar {
+    position: relative;
+    margin-right: 20px; /* Để tạo khoảng cách với phần tử tiếp theo */
+}
+
+.search-bar input[type="text"] {
+    width: 400px; /* Độ rộng của ô tìm kiếm */
+    padding: 10px 40px 10px 10px; /* Khoảng cách bên trong của ô tìm kiếm, với padding phải đủ để chứa icon */
+    border: 1px solid #ccc; /* Viền ô tìm kiếm */
+    border-radius: 20px; /* Độ cong của viền */
+    outline: none; /* Loại bỏ đường viền khi ô tìm kiếm được chọn */
+    transition: all 0.3s ease-in-out; /* Hiệu ứng chuyển đổi mượt mà */
+}
+
+.search-bar button {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Điều chỉnh vị trí của icon search */
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0; /* Đảm bảo không có khoảng cách thừa */
+}
+
+.search-bar button i {
+    color: #666; /* Màu của biểu tượng */
+    font-size: 16px; /* Kích thước biểu tượng */
+}
+
+.search-bar input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+}
+
+.search-bar input[type="text"]::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.container {
+    padding: 20px;
+}
+
+.box-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(33.333% - 20px); /* Tùy chọn: điều chỉnh chiều rộng cho phù hợp */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box .title a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.description-box {
+    margin-top: 10px;
+}
+
+.description {
+    color: #555;
+}
+
+.SetPreviewCard-creator {
+    margin-top: 10px;
+    color: #888;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #333;
+}

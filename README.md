@@ -1,6 +1,6 @@
 # Ứng dụng tạo câu hỏi trắc nghiệm (Quizlet-liked)
 
-### [Repository này được tôi lấy từ nhóm trưởng Huỳnh Tấn Tỷ trong đồ án chung của tôi để re-up lên trang GitHub của tôi]
+**[Repository này được tôi lấy từ nhóm trưởng Huỳnh Tấn Tỷ trong đồ án chung của tôi để re-up lên trang GitHub của tôi]**
 
 Mô tả ứng dụng
 # Tên ứng dụng: Quizlet
